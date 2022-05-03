@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="title-box">
+        <h1>박현웅</h1>
+        <p class="english-name">Park Hyunwoong</p>
+        <p class="part">멋쟁이사자처럼 기획디자인팀</p>
+    </div>
+    <section>
+    <h2>ABOUT ME</h2>
+    <p class="about-me-text"> BIRTH   1997. 02. 21</p>
+    <p class="about-me-text"> CALL  010-7134-9799</p>
+    </section>
+    <section>
+        <h2>ACTIVITIES</h2>
+        <div class="float-wrap">
+            <p class="title-text">LIKELION 10TH</p>
+            <p class="year-text">2022</p>
+        </div>
+        <p class="desc-text">Dongguk University</p>
+        <div class="float-wrap">
+            <p class="title-text"> University Union Band&Planning Club CCGH </p>
+            <p class="year-text">2020 - 2021</p>
+        </div>
+        <p class="desc-text">Club Representative, Guitarist</p>
+        <div class="float-wrap">
+        <p class="title-text">Community Service Planning</p>
+        <p class="year-text">2020 - 2021</p>
+        </div>
+        <p class="desc-text">Planner, Designer</p>
+        <p class="desc-subtext">benew.io</p>
+    </section>
+
+    <section>
+        <h2>EDUCATION</h2>
+        <div class="float-wrap">
+            <p class="title-text">Dongguk University</p>
+            <p class="year-text">2016 - 2022</p>
+        </div>
+        <p class="desc-text">Film and Digital Media </p>
+        <p class="desc-text">Advertising and Public Relations </p>
+        <div class="float-wrap">
+            <p class="title-text">Guanghwi High school</p>
+            <p class="year-text">2013 - 2015</p>
+        </div>
+        <p class="desc-text">Student President</p>
+    </section>
+
+    <div class="sns-wrap">
+    <a href="https://www.instagram.com/hw_present/">
+        <img src = "{% static 'img/insta.jpeg' %}" target="_blank" width="50" height="50"></a>
+    </div>
+{% endblock %}
